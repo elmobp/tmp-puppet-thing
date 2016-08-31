@@ -1,0 +1,12 @@
+---
+generic::config::params:
+   'type':
+        'package':
+            'nginx':
+               ensure: latest
+            'whois':
+               ensure: latest
+        'exec':
+            'test':
+             path: '/usr/bin'
+             command: "/usr/bin/touch /tmp/winrar"
